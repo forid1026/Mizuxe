@@ -1,0 +1,103 @@
+
+.navbar{
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #3292a6;
+	opacity: 0.9;
+	
+}
+.nav-item{
+	font-size: 1.2rem;
+	padding-right: 20px;
+}
+.nav-item .nav-link{
+	color: #252525;
+
+}
+.nav-item:hover{
+	color:  #3292a6;
+
+}
+
+/*showcase section*/
+#showcase{
+	background-image: url(../img/mountains.jpg);
+}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/mlogo.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/navbar-fixed.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<title>First Project</title>
+
+	<title>Mizuxe</title>
+</head>
+<body>
+	
+
+	<!-- Navbar section -->
+
+	<nav class="navbar navbar-light navbar-expand-md py-3 fixed-top">
+		<div class="container">
+					<a class="navbar-brand" href="#showcase">
+						<img src="img/mlogo.png" alt="Mizuxe logo" class="img-fluid" width="50" height="50">
+						<h3 class="d-inline align-middle">Mizuxe</h3>
+					</a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+		
+
+					<div id="navbarNav" class="collapse navbar-collapse">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#showcase">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#authors">Meet The Authors</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>					
+	</nav>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jquery link -->
+	<script src="js/jquery.slim.js"></script>
+	<script src="js/popper.min.js.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/navbar-fixed.js"></script>
+	<script src="js/navbar-fixed.js"></script>
+
+</body>
+</html>
