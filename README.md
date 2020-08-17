@@ -1,4 +1,2 @@
-# Second-Project
-# Mizuxe
-# Mizuxe
-# Mizuxe
+
+# Mizuxe book theme
